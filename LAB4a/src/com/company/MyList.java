@@ -54,7 +54,45 @@ public class MyList<T>
 
     }
 
-    public boolean remove(int e)
+    //return true if it deleted something
+    public boolean remove(T e)
+    {
+        boolean result=false;
+
+        if(this.count==0)
+        {
+            return false;
+        }
+
+        Node current = first;
+
+        while(current.next != null)
+        {
+
+            if(current.next.Data==e)
+            {
+                if(current.next.next != null)
+                {
+                    current.next=current.next.next;
+                }
+                else
+                {
+                    current.next=null;
+                }
+
+
+                count--;
+                result=true;
+            }
+
+            current=current.next;
+        }
+
+        return result;
+    }
+
+        //return true if it deleted something
+    public boolean remove()
     {
         if(this.count==0)
         {

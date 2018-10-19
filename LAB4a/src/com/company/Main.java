@@ -13,6 +13,9 @@ public class Main
 	  ml.add(30);
 	  ml.add(4);
 	  ml.add(5);
+	  ml.add(27);
+
+	  ml.remove(4);
 
 	  ml.parcurge();
 
