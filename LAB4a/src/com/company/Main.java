@@ -5,14 +5,14 @@ public class Main
 
     public static void main(String[] args)
     {
-	  MyList ml = new MyList('a');
+	  MyList<Integer> ml = new MyList();
 
 
 	  //System.out.print( ml.first.Data + "\n");
 
-	  ml.add('b');
 	  ml.add(30);
 	  ml.add(4);
+	  ml.add(5);
 
 	  ml.parcurge();
 

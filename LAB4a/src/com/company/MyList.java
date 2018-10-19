@@ -2,16 +2,16 @@ package com.company;
 
 
 
-public class MyList
+public class MyList<T>
 {
     public class Node
     {
-        Object Data;
+        T Data;
         Node next;
 
        // Node(int d) {this.Data = d;}
 
-        public Node(Object value){
+        public Node(T value){
             this.Data = value;
             this.next = null;
         }
@@ -20,29 +20,38 @@ public class MyList
     Node first;
     int count;
 
-    public MyList(Object setData)
+    public MyList()
     {
-        Node newNode = new Node(setData);
-        this.first = newNode;
-        this.count = 0;
+
     }
 
-    public void add(Object value)
+    public void add(T value)
     {
-        Node current = this.first;
-        Node temp = new Node(value);
+        if(count==0)
+        {
+            Node newNode = new Node(value);
+            this.first = newNode;
+            this.count = 1;
+        }
+        else
+        {
+            Node current = this.first;
+            Node temp = new Node(value);
 
-        if(current == null){
-            this.first = temp;
-            count+=1;
-            return;
+            if(current == null){
+                this.first = temp;
+                count+=1;
+                return;
+            }
+
+            while(current.next != null){
+                current = current.next;
+            }
+            current.next=temp;
+            count += 1;
         }
 
-        while(current.next != null){
-            current = current.next;
-        }
-        current.next=temp;
-        count += 1;
+
     }
 
     public boolean remove(int e)
@@ -54,7 +63,8 @@ public class MyList
 
         Node current = first;
 
-        if(this.count == 1) {
+        if(this.count == 1)
+        {
             this.first = null;
             count--;
             return true;
