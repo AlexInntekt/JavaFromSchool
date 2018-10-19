@@ -55,6 +55,7 @@ public class MyList<T>
     }
 
     //return true if it deleted something
+    //UNFINISHED remove(T e)
     public boolean remove(T e)
     {
         boolean result=false;
@@ -118,9 +119,25 @@ public class MyList<T>
         return true;
     }
 
-    public int getElementAt(int index)
+
+    public T getElementAt(int index)
     {
-        int result=0;
+
+        int i=0;
+
+        Node current = first;
+
+        T result = current.Data;
+
+        while( (current.next != null) )
+        {
+            current = current.next;
+            i++;
+            if(i==index)
+            {
+                result = current.Data;
+            }
+        }
 
         return result;
     }

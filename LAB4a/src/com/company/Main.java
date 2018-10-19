@@ -19,5 +19,22 @@ public class Main
 
 	  ml.parcurge();
 
+	  int index=1;
+	  System.out.print("At index we have:" + ml.getElementAt(index) );
+
+        if(ml.isEmpty())
+        {
+            System.out.print("\nIt is empty!\n");
+        }
+        else
+        {
+            System.out.print("\nIt is not empty!\n");
+        }
+
+        System.out.print("The size of the list is: " + ml.size());
+
+
     }
 }
+
+
