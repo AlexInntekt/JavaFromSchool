@@ -5,6 +5,7 @@ public class BinarySearchTree<T>
 
     /* Class containing left and right child of current node and key value*/
     class Node<T extends Comparable<T>>
+    //class Node<T> implements Comparable<T>
     {
         T key;
         Node left, right;
@@ -16,17 +17,19 @@ public class BinarySearchTree<T>
         }
 
 
-        public int compareTo(Node b)
+        public int compareTo(Node<T> b)
         {
             int result;
 
-            result = this.key.compareTo(b.key);
+            if (((Comparable)this.key).compareTo((Comparable)b.key)>0)
+                result = 1;
 
             return result;
         }
 
-        // int firstCompare = this.name.compareTo(compareWith.name);
     }
+
+
 
     // Root of BST
     Node root;
@@ -46,14 +49,15 @@ public class BinarySearchTree<T>
 
         /* If the tree is empty, return a new node */
         if (root == null) {
-            root = new Node(key);
+            Node<Integer> anew = new Node(key);
+            root = anew;
             return root;
         }
 
         /* Otherwise, recur down the tree */
-        if (key.compareTo(root.key))
+        if(root.key.compareTo(key)>1)
             root.left = insertRec(root.left, key);
-        else if (root.key.compareTo(key))
+        else  //(root.key.compareTo(key)>1)
             root.right = insertRec(root.right, key);
 
         /* return the (unchanged) node pointer */
