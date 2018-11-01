@@ -12,6 +12,13 @@ package com.company;
 
 public class PlayingCard
 {
+   public PlayingCard(suit s, rank r)
+   {
+       this.itsSuit = s;
+       this.itsRank = r;
+   }
+
    public suit itsSuit;
    public rank itsRank;
 }
+
