@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ac0702-0b2b-4bb3-b281-d39e76084ed5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HM5/src/com/company/MySortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM5/src/com/company/TestClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM5/src/com/company/TestClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM5/out/production/HM5/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM5/out/production/HM5/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM5/out/production/HM5/com/company/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM5/out/production/HM5/com/company/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM5/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM5/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM5/src/com/company/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM5/src/com/company/MyList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +18,7 @@
     <session id="1027338684">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.5" value="1" />
