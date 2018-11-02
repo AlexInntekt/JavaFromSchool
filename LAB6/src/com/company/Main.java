@@ -28,6 +28,8 @@ public class Main
     public TextField text;
     public TextArea tArea;
     private Button button1, button2, button3;
+     Panel p=new Panel();
+     Panel p2=new Panel();
 
      Label labelOne = new Label("Title: ");
      TextField textFieldOne=new TextField("Moara cu Noroc",20);
@@ -78,34 +80,19 @@ public class Main
 
 
         button1 = new Button ("Save");
-        add(button1);
+        //add(button1);
         button1.setLabel("Add");
         button2 = new Button ("Clear");
-        add(button2);
+        //add(button2);
         button3 = new Button ("Exit");
-        add(button3);
-
-        Panel p=new Panel();
-        p.setSize(1000, 400);
-        Panel[] pi=new Panel[3];
-        for(int i=0; i<3; i++) {
-            pi[i] = new Panel();
-            pi[i].setSize(200, 50);
-            switch (i) {
-                case 0:
-                    pi[0].setBackground(Color.red);
-                    break;
-                case 1:
-                    pi[1].setBackground(Color.yellow);
-                    break;
-                case 2:
-                    pi[2].setBackground(Color.blue);
-            }
-            p.add(pi[i]);
-        }
+        //add(button3);
 
 
+        p.add(button1,0);
+        p.add(button2,1);
+        p2.add(button3,0);
         add(p);
+        add(p2);
     }
 }
 
