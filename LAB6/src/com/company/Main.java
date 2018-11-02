@@ -27,7 +27,7 @@ public class Main
  {
     public TextField text;
     public TextArea tArea;
-    private Button button1, button2;
+    private Button button1, button2, button3;
 
      Label labelOne = new Label("Title: ");
      TextField textFieldOne=new TextField("Moara cu Noroc",20);
@@ -42,9 +42,15 @@ public class Main
 
      public BookFrame()
     {
+
+
         super("Add new book");
+
+
+
         setSize(400,600);
-        setLayout(new GridLayout(12,2));
+        //setLayout(new GridLayout(4,8));
+        setLayout(new GridLayout(12,12));
 
         add(labelOne);
         add(textFieldOne);
@@ -61,6 +67,16 @@ public class Main
         list1.addItem("Psihologie");
         list1.addItem("Dezvoltare personala");
         add(list1);
+
+
+
+        button1 = new Button ("Save");
+        add(button1);
+        button1.setLabel("Add");
+        button2 = new Button ("Clear");
+        add(button2);
+        button3 = new Button ("Exit");
+        add(button3);
 
 //        Canvas c=new Canvas();
 ////        c.resize(40,40);
