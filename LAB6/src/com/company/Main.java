@@ -50,7 +50,7 @@ public class Main
 
         setSize(400,600);
         //setLayout(new GridLayout(12,12));
-        setLayout(new GridLayout(4,8));
+        setLayout(new GridLayout(12,12));
 
         add(labelOne);
         add(textFieldOne);
@@ -60,8 +60,10 @@ public class Main
         add(new Label("Used: "));
         add(new Checkbox("yes/no", null, true));
 
+
         CheckboxGroup cbg = new CheckboxGroup();
         add(new Label("Binding: "));
+        add(new Label(" "));
         add(new Checkbox("Hardblahblah", cbg, true));
         add(new Checkbox("paperback", cbg, false));
 
@@ -84,7 +86,7 @@ public class Main
         add(button3);
 
         Panel p=new Panel();
-        p.setSize(200, 150);
+        p.setSize(1000, 400);
         Panel[] pi=new Panel[3];
         for(int i=0; i<3; i++) {
             pi[i] = new Panel();
