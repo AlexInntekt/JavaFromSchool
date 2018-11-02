@@ -32,17 +32,15 @@ public class MyList<T>
         elements[size++] = e;
     }
 
-    //Get method
-    @SuppressWarnings("unchecked")
-    public T get(int i) {
+
+    public T getElementAt(int i) {
         if (i >= size || i < 0) {
             throw new IndexOutOfBoundsException("Index: " + i + ", Size " + i);
         }
         return (T) elements[i];
     }
 
-    //Remove method
-    @SuppressWarnings("unchecked")
+
     public T remove(int i) {
         if (i >= size || i < 0) {
             throw new IndexOutOfBoundsException("Index: " + i + ", Size " + i);
