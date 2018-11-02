@@ -49,8 +49,8 @@ public class Main
 
 
         setSize(400,600);
-        //setLayout(new GridLayout(4,8));
-        setLayout(new GridLayout(12,12));
+        //setLayout(new GridLayout(12,12));
+        setLayout(new GridLayout(4,8));
 
         add(labelOne);
         add(textFieldOne);
@@ -58,8 +58,13 @@ public class Main
         add(textFieldTwo);
 
         add(new Label("Used: "));
-
         add(new Checkbox("yes/no", null, true));
+
+        CheckboxGroup cbg = new CheckboxGroup();
+        add(new Label("Binding: "));
+        add(new Checkbox("Hardblahblah", cbg, true));
+        add(new Checkbox("paperback", cbg, false));
+
 
         add(new Label("Type of book: "));
         List list1 = new List(1, false);
@@ -78,12 +83,27 @@ public class Main
         button3 = new Button ("Exit");
         add(button3);
 
-//        Canvas c=new Canvas();
-////        c.resize(40,40);
-////        c.setBackground(Color.black);
-////        add(c);
+        Panel p=new Panel();
+        p.setSize(200, 150);
+        Panel[] pi=new Panel[3];
+        for(int i=0; i<3; i++) {
+            pi[i] = new Panel();
+            pi[i].setSize(200, 50);
+            switch (i) {
+                case 0:
+                    pi[0].setBackground(Color.red);
+                    break;
+                case 1:
+                    pi[1].setBackground(Color.yellow);
+                    break;
+                case 2:
+                    pi[2].setBackground(Color.blue);
+            }
+            p.add(pi[i]);
+        }
 
 
+        add(p);
     }
 }
 
