@@ -55,7 +55,7 @@ public class Main {
 
         System.out.println("\nNow return a map with the amount for each currency: ");
         System.out.println( alex.returnMap() );
-        
+
 
     }
 }
