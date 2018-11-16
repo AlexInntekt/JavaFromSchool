@@ -2,6 +2,8 @@ package com.company;
 import java.util.List;
 import java.util.Collections;
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
 
 
 public class user
@@ -26,6 +28,12 @@ public class user
         Collections.sort(this.accounts, (BankingAccount p1, BankingAccount p2) -> p1.IBAN.compareTo(p2.IBAN));
     }
 
+    public void sortByCurrency()
+    {
+        Collections.sort(this.accounts, (BankingAccount p1, BankingAccount p2) -> p1.currency.compareTo(p2.currency));
+    }
+
+
     public void sortBySum()
     {
         Collections.sort(this.accounts, (BankingAccount p1, BankingAccount p2) -> p1.compare(p1,p2));
@@ -37,8 +45,36 @@ public class user
         {
             BankingAccount x = this.accounts.get(i);
 
-            System.out.println(x.IBAN + "  "+ this.accounts.get(i).sum + " " + this.accounts.get(i).currency + " (or " + this.accounts) ;
+            System.out.println(x.IBAN + "  "+ x.sum + " " + x.currency + " (or " + x.sumInEuros() + " euros)") ;
         }
+    }
+
+    public Map<typeOfCurrency, Double> returnMap()
+    {
+        Map<typeOfCurrency,Double> hm =
+                new HashMap< typeOfCurrency,Double>();
+
+        for(int i=0; i<this.accounts.size(); i++)
+        {
+            BankingAccount current = this.accounts.get(i);
+
+            if(current.currency==typeOfCurrency.EUR)
+            {
+                hm.put(typeOfCurrency.EUR,current.sum);
+            }
+            if(current.currency==typeOfCurrency.USD)
+            {
+
+                hm.put(typeOfCurrency.USD,current.sum);
+            }
+            if(current.currency==typeOfCurrency.RON)
+            {
+
+                hm.put(typeOfCurrency.RON,current.sum);
+            }
+        }
+
+        return hm;
     }
 
 

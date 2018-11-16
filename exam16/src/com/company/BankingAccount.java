@@ -45,6 +45,13 @@ public class BankingAccount implements Comparator<BankingAccount>
         return o.IBAN.compareTo(u.IBAN);
     }
 
+    public int compareByCurrency(final BankingAccount o, final BankingAccount u)
+    {
+        int res=0;
+
+        return o.currency.compareTo(u.currency);
+    }
+
     @Override
     public int compare(final BankingAccount o, final BankingAccount u)
     {
@@ -98,6 +105,25 @@ public class BankingAccount implements Comparator<BankingAccount>
 
         return res;
 
+    }
+
+    public double sumInEuros()
+    {
+        double res = 0;
+        if(this.currency==typeOfCurrency.USD)
+        {
+            res = this.convertUSDtoEUR(this.sum);
+        }
+        if(this.currency==typeOfCurrency.RON)
+        {
+            res = this.convertRONtoEUR(this.sum);
+        }
+        if(this.currency==typeOfCurrency.EUR)
+        {
+            res = this.sum;
+        }
+
+        return res;
     }
 
 
