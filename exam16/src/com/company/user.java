@@ -20,4 +20,26 @@ public class user
     {
         this.accounts.add(newAccount);
     }
+
+    public void sortByIBAN()
+    {
+        Collections.sort(this.accounts, (BankingAccount p1, BankingAccount p2) -> p1.IBAN.compareTo(p2.IBAN));
+    }
+
+    public void sortBySum()
+    {
+        Collections.sort(this.accounts, (BankingAccount p1, BankingAccount p2) -> p1.compare(p1,p2));
+    }
+
+    public void display()
+    {
+        for(int i=0; i<this.accounts.size(); i++)
+        {
+            BankingAccount x = this.accounts.get(i);
+
+            System.out.println(x.IBAN + "  "+ this.accounts.get(i).sum + " " + this.accounts.get(i).currency + " (or " + this.accounts) ;
+        }
+    }
+
+
 }

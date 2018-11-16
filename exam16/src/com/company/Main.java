@@ -21,17 +21,27 @@ public class Main {
     {
         System.out.print("#82g391fg9234gf9 Running testBankingAccountClass()\n");
 
-        BankingAccount one = new BankingAccount("RO75829357", 440, typeOfCurrency.RON);
-        BankingAccount two = new BankingAccount("RO72935780", 2300, typeOfCurrency.EUR);
+        BankingAccount one = new BankingAccount("RO75829357", 400, typeOfCurrency.RON);
+        BankingAccount two = new BankingAccount("EUR72935780", 2300, typeOfCurrency.EUR);
+        BankingAccount three = new BankingAccount("USD7209357", 30, typeOfCurrency.USD);
 
-        System.out.println( one.compare(one,two) );
+        //System.out.println( one.compare(one,two) );
 
         user alex = new user("alex", "exampleOfEmail@gmail.com");
              alex.accounts.add(one);
              alex.accounts.add(two);
+             alex.accounts.add(three);
 
-        //System.out.println( one.convertUSDtoEUR(20) );
-        //alex.accounts.sort(Co.comparing(e -> e.getFirstName()));
+        System.out.println("\n");
+
+        System.out.println("\n Let's sort the accounts by IBANs (alphabetically);");
+        alex.sortByIBAN();
+        alex.display();
+
+        System.out.println("\n Now let's sort the accounts by their sums: ");
+        alex.sortBySum();
+        alex.display();
+
 
     }
 }

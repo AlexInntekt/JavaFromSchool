@@ -36,6 +36,15 @@ public class BankingAccount implements Comparator<BankingAccount>
         return res;
     }
 
+
+
+    public int compareIBANs(final BankingAccount o, final BankingAccount u)
+    {
+        int res=0;
+
+        return o.IBAN.compareTo(u.IBAN);
+    }
+
     @Override
     public int compare(final BankingAccount o, final BankingAccount u)
     {
