@@ -22,3 +22,4 @@ public class PlayingCard
    public rank itsRank;
 }
 
+
