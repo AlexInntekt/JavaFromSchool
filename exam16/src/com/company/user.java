@@ -60,17 +60,42 @@ public class user
 
             if(current.currency==typeOfCurrency.EUR)
             {
-                hm.put(typeOfCurrency.EUR,current.sum);
+                double oldSum=0;
+
+                if(hm.get(typeOfCurrency.EUR)!=null)
+                {
+                    oldSum=hm.get(typeOfCurrency.EUR);
+                }
+
+                hm.put(typeOfCurrency.EUR,current.sum+ oldSum);
             }
+
+
             if(current.currency==typeOfCurrency.USD)
             {
 
-                hm.put(typeOfCurrency.USD,current.sum);
+                double oldSum=0;
+
+                if(hm.get(typeOfCurrency.USD)!=null)
+                {
+                    oldSum=hm.get(typeOfCurrency.USD);
+                }
+
+                hm.put(typeOfCurrency.USD,current.sum+ oldSum);
             }
+
+
             if(current.currency==typeOfCurrency.RON)
             {
 
-                hm.put(typeOfCurrency.RON,current.sum);
+                double oldSum=0;
+
+                if(hm.get(typeOfCurrency.RON)!=null)
+                {
+                    oldSum=hm.get(typeOfCurrency.RON);
+                }
+
+                hm.put(typeOfCurrency.RON,current.sum+ oldSum);
             }
         }
 

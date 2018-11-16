@@ -28,6 +28,7 @@ public class Main {
         BankingAccount one = new BankingAccount("RO75829357", 400, typeOfCurrency.RON);
         BankingAccount two = new BankingAccount("EUR72935780", 2300, typeOfCurrency.EUR);
         BankingAccount three = new BankingAccount("USD7209357", 300, typeOfCurrency.USD);
+        BankingAccount four = new BankingAccount("USDf89213f", 700, typeOfCurrency.USD);
 
         //System.out.println( one.compare(one,two) );
 
@@ -35,6 +36,7 @@ public class Main {
              alex.accounts.add(one);
              alex.accounts.add(two);
              alex.accounts.add(three);
+             alex.accounts.add(four);
 
         System.out.println("\n");
 
@@ -53,14 +55,7 @@ public class Main {
 
         System.out.println("\nNow return a map with the amount for each currency: ");
         System.out.println( alex.returnMap() );
-
-
-//        Map<typeOfCurrency,Double> hm =
-//                new HashMap< typeOfCurrency,Double>();
-//
-//        hm.put(typeOfCurrency.EUR,Double.valueOf(20));
-//
-//        System.out.println("map: " + hm.get(typeOfCurrency.EUR));
+        
 
     }
 }
