@@ -24,14 +24,14 @@ public class Main {
         BankingAccount one = new BankingAccount("RO75829357", 440, typeOfCurrency.RON);
         BankingAccount two = new BankingAccount("RO72935780", 2300, typeOfCurrency.EUR);
 
-        System.out.println( one.compareTo(two) );
+        System.out.println( one.compare(one,two) );
 
         user alex = new user("alex", "exampleOfEmail@gmail.com");
              alex.accounts.add(one);
              alex.accounts.add(two);
 
         //System.out.println( one.convertUSDtoEUR(20) );
-        alex.accounts.sort(Comparator.comparing(e -> e.getFirstName()));
+        //alex.accounts.sort(Co.comparing(e -> e.getFirstName()));
 
     }
 }

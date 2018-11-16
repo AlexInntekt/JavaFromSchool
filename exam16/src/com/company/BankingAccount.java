@@ -37,7 +37,7 @@ public class BankingAccount implements Comparator<BankingAccount>
     }
 
     @Override
-    public int compare(final BankingAccount o)
+    public int compare(final BankingAccount o, final BankingAccount u)
     {
         int res = 0;
 
@@ -45,30 +45,30 @@ public class BankingAccount implements Comparator<BankingAccount>
         double sumTwo=0;
 
         //here we convert all sums into euros and then compare the sums:
-        if(this.currency==typeOfCurrency.RON)
-        {
-            sumOne = this.convertRONtoEUR(this.sum);
-        }
-        if(this.currency==typeOfCurrency.USD)
-        {
-            sumOne = this.convertUSDtoEUR(this.sum);
-        }
-        if(this.currency==typeOfCurrency.EUR)
-        {
-            sumOne = this.sum;
-        }
-
         if(o.currency==typeOfCurrency.RON)
         {
-            sumTwo = this.convertRONtoEUR(o.sum);
+            sumOne = o.convertRONtoEUR(o.sum);
         }
         if(o.currency==typeOfCurrency.USD)
         {
-            sumTwo = this.convertUSDtoEUR(o.sum);
+            sumOne = o.convertUSDtoEUR(o.sum);
         }
         if(o.currency==typeOfCurrency.EUR)
         {
-            sumTwo = o.sum;
+            sumOne = o.sum;
+        }
+
+        if(u.currency==typeOfCurrency.RON)
+        {
+            sumTwo = this.convertRONtoEUR(u.sum);
+        }
+        if(u.currency==typeOfCurrency.USD)
+        {
+            sumTwo = this.convertUSDtoEUR(u.sum);
+        }
+        if(u.currency==typeOfCurrency.EUR)
+        {
+            sumTwo = u.sum;
         }
 
         //System.out.println("SumOne:" + sumOne);
