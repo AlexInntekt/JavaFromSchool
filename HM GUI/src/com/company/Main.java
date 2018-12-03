@@ -78,7 +78,7 @@ class calculator extends Frame
 
 
 
-        super("Add new book");
+        super("un caculatol :P");
 
 
 
