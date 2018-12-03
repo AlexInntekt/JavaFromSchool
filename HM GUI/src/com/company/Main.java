@@ -10,8 +10,10 @@ public class Main
     public static void main(String[] args)
     {
 
-        BookFrame m = new BookFrame();
+        calculator m = new calculator();
         m.setVisible(true);
+
+
 
 
 
@@ -22,11 +24,16 @@ public class Main
 
 }
 
-class BookFrame extends Frame
+class calculator extends Frame
 {
     public TextField text;
     public TextArea tArea;
-    private Button button1;
+
+    private Button add;
+    private Button substract;
+    private Button multiply;
+    private Button divide;
+
     Panel p=new Panel();
     Panel p2=new Panel();
 
@@ -42,6 +49,7 @@ class BookFrame extends Frame
 
 
     String currentOperation="addition";
+    double currentResult=0;
 
 
     public void add()
@@ -65,15 +73,9 @@ class BookFrame extends Frame
     }
 
 
-    public BookFrame()
+    public calculator()
     {
 
-        button1.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                output.setText("Ok Button clicked.");
-            }
 
 
         super("Add new book");
@@ -92,17 +94,75 @@ class BookFrame extends Frame
 
 
 
-            button1 = new Button ("Save");
-            //add(button1);
-        button1.setLabel("Add");
+            add = new Button ("add");
+            substract = new Button ("substract");
+            multiply = new Button ("multiply");
+            divide = new Button ("divide");
 
-        });
 
 
-        p.add(button1,0);
+
+        p.add(add,0);
+        p.add(substract,0);
+        p.add(multiply,0);
+        p.add(divide,0);
 
         add(p);
         add(p2);
+
+
+        add.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                currentResult=Double.valueOf(textFieldOne.getText())+Double.valueOf(textFieldTwo.getText());
+
+                output.setText(String.valueOf(currentResult));
+            }
+        });
+
+        substract.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                currentResult=Double.valueOf(textFieldOne.getText())-Double.valueOf(textFieldTwo.getText());
+
+                output.setText(String.valueOf(currentResult));
+            }
+        });
+
+
+        multiply.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                currentResult=Double.valueOf(textFieldOne.getText())*Double.valueOf(textFieldTwo.getText());
+
+                output.setText(String.valueOf(currentResult));
+            }
+        });
+
+
+        divide.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                if(textFieldOne.getText().equals("0"))
+                {
+                    output.setText("infinity :P");
+                }
+                else
+                {
+                    currentResult=Double.valueOf(textFieldOne.getText())/Double.valueOf(textFieldTwo.getText());
+                    output.setText(String.valueOf(currentResult));
+                }
+
+
+
+            }
+        });
+
+
     }
 }
 
