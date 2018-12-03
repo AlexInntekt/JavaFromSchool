@@ -34,7 +34,7 @@ class Counter extends Thread {
     public void run() {
         try {
             while (currentValue < this.totalSteps) {
-                System.out.println("Thread id "+getName()+" is at step "+(currentValue++)+" / "+this.totalSteps);
+                System.out.println("Thread id "+getName()+" is at step "+(++currentValue)+" / "+this.totalSteps);
                 Thread.sleep(50); // (4) Current thread sleeps.
             }
         } catch (InterruptedException e) {
