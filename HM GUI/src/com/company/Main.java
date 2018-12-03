@@ -13,16 +13,95 @@ public class Main
         calculator m = new calculator();
         m.setVisible(true);
 
-
+        shoper n = new shoper();
+        n.setVisible(true);
 
 
 
 
 
     }
-
-
 }
+
+
+
+class shoper extends Frame
+{
+    public TextField text;
+    public TextArea tArea;
+    double currentResult=0;
+    private Button buy;
+
+    Panel p=new Panel();
+    Panel p2=new Panel();
+
+    Label labelOne = new Label("Product ");
+    TextField textFieldOne=new TextField("1",20);
+
+
+    Label labelTwo = new Label("Quantity ");
+    TextField textFieldTwo=new TextField("2",20);
+
+
+    Label output = new Label("Total ");
+    TextField textFieldThree=new TextField(" ",20);
+
+
+
+
+
+    public shoper()
+    {
+
+
+
+        super("shoppul mieu :P");
+
+
+
+        setSize(400,400);
+        //setLayout(new GridLayout(12,12));
+        setLayout(new GridLayout(6,24));
+
+        add(labelOne);
+        add(textFieldOne);
+        add(labelTwo);
+        add(textFieldTwo);
+        add(output);
+        add(textFieldThree);
+
+
+
+        buy = new Button ("buy");
+
+        p.add(buy,0);
+
+
+        add(p);
+        add(p2);
+
+
+        buy.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+               System.out.println("result");
+
+                currentResult=Double.valueOf(textFieldOne.getText())*Double.valueOf(textFieldTwo.getText());
+
+                textFieldThree.setText(String.valueOf(currentResult));
+
+            }
+        });
+
+
+    }
+}
+
+
+
+
+
 
 class calculator extends Frame
 {
