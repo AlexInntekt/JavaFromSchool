@@ -6,8 +6,10 @@ public class Main {
     {
         System.out.println("Method main() runs in thread " +
                 Thread.currentThread().getName()); // (5) Current thread
-        Counter counterA = new Counter("Counter A"); // (6) Create a thread.
-        Counter counterB = new Counter("Counter B"); // (7) Create a thread.
+        Counter counterA = new Counter("1", 10); // (6) Create a thread.
+        Counter counterB = new Counter("2", 20); // (7) Create a thread.
+        Counter counterC = new Counter("3", 34); // (7) Create a thread.
+        Counter counterCD= new Counter("4", 17); // (7) Create a thread.
         System.out.println("Exit from main() method.");
     }
 }
@@ -15,19 +17,24 @@ public class Main {
 
 class Counter extends Thread {
     private int currentValue;
-    public Counter(String threadName) {
-        super(threadName); // (1) Initialize thread.
+    private int totalSteps;
+
+    public Counter(String threadName, int setTotalSteps)
+    {
+        super(threadName);
         currentValue = 0;
+        totalSteps=setTotalSteps;
         System.out.println(this);
-// setDaemon(true);
-        start(); // (2) Start this thread.
+
+        start();
     }
     public int getValue() { return currentValue; }
-    public void run() { // (3) Override from superclass.
+
+    public void run() {
         try {
-            while (currentValue < 5) {
-                System.out.println(getName()+": "+(currentValue++));
-                Thread.sleep(250); // (4) Current thread sleeps.
+            while (currentValue < 50) {
+                System.out.println("Thread id "+getName()+" is at step "+(currentValue++)+"/"+this.totalSteps);
+                Thread.sleep(50); // (4) Current thread sleeps.
             }
         } catch (InterruptedException e) {
             System.out.println(getName() + " interrupted.");
