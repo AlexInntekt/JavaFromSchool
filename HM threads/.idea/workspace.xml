@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3553b8-41fc-4f9d-af85-dec514851ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../2nd HM with threads/src/com/company/Visa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Threads Lab 2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Threads Lab 2/src/com/company/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads Lab 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads Lab 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads Lab 2/out/production/Threads Lab 2/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads Lab 2/out/production/Threads Lab 2/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads Lab 2/out/production/Threads Lab 2/com/company/Sensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads Lab 2/out/production/Threads Lab 2/com/company/Sensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads Lab 2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads Lab 2/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
