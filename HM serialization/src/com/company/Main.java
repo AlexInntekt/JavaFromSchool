@@ -7,17 +7,33 @@ public class Main
 
     public static void main(String[] args)
     {
+
+        run();
+    }
+
+    public static void test(ArrayList<Person> current)
+    {
+        current.remove(0);
+        current.remove(0);
+
+    }
+
+
+    public static void run()
+    {
         //constructor:
         //(setName, setSurname, setSSN, setAge, setGender, setCity, setCountry)
-        Person one = new Person("Keli","Malinghton",124,22,"F","Thompson","UK", "Bvd Etilka 23");
-        Person two = new Person("Richard","Wolshire",331,31,"M","Thompson","Netherlands", "str Roses, 91");
+        Person one = new Person("Keli","Malinghton",124,22,"F","Thompson","UK", "Ave Etilka 23");
+        Person two = new Person("Richard","Mollen",331,31,"M","Thompson","USA", "str Roses, 91");
+        Person three = new Person("Vasile","Dumitrescu",273,29,"M","Thompson","Romania", "str Lorry, 23 bis");
 
 
 
 
         ArrayList<Person> archive=new ArrayList<>();
-                            archive.add(one);
-                            archive.add(two);
+        archive.add(one);
+        archive.add(two);
+        archive.add(three);
 
 
 
@@ -56,6 +72,9 @@ public class Main
             return;
         }
 
+
+        test(list);
+
         System.out.print("\n\n");
 
         for(int i=0;i<list.size();i++)
@@ -71,10 +90,5 @@ public class Main
             System.out.println("SSN: " + current.SSN);
             System.out.println("\n\n\n___________________\n");
         }
-
-
-
-
-
     }
 }
