@@ -7,21 +7,17 @@ public class Main
 
     public static void main(String[] args)
     {
-        Employee s = new Employee();
-        s.name = "Reyan Ali";
-        s.address = "Phokka Kuan, Ambehta Peer";
-        s.SSN = 11122333;
-        s.number = 101;
+        //constructor:
+        //(setName, setSurname, setSSN, setAge, setGender, setCity, setCountry)
+        Person one = new Person("Keli","Malinghton",124,22,"F","Thompson","UK", "Bvd Etilka 23");
+        Person two = new Person("Richard","Wolshire",331,31,"M","Thompson","Netherlands", "str Roses, 91");
 
-        Employee d = new Employee();
-        d.name = "Mulhabar";
-        d.address = "Palaka Mahalakaa";
-        d.SSN = 53636;
-        d.number = 45;
 
-        ArrayList<Employee> archive=new ArrayList<>();
-                            archive.add(s);
-                            archive.add(d);
+
+
+        ArrayList<Person> archive=new ArrayList<>();
+                            archive.add(one);
+                            archive.add(two);
 
 
 
@@ -44,11 +40,11 @@ public class Main
 
 
 
-        ArrayList<Employee> list=new ArrayList<>();
+        ArrayList<Person> list=new ArrayList<>();
         try {
             FileInputStream fileIn = new FileInputStream("/users/alex/desktop/DataStreamLab/employee.ser");
             ObjectInputStream in = new ObjectInputStream(fileIn);
-            list = (ArrayList<Employee>) in.readObject();
+            list = (ArrayList<Person>) in.readObject();
             in.close();
             fileIn.close();
         } catch (IOException i) {
@@ -64,13 +60,16 @@ public class Main
 
         for(int i=0;i<list.size();i++)
         {
-            Employee current = list.get(i);
+            Person current = list.get(i);
             System.out.println("Deserialized Employee...");
-            System.out.println("Name: " + current.name);
-            System.out.println("Address: " + current.address);
+            System.out.println("Name: " + current.name + " " + current.surname);
+            System.out.println("Gender: " + current.gender);
+            System.out.println("Age: " + current.age);
+            System.out.println("City: " + current.city);
+            System.out.println("Country: " + current.country);
+            System.out.println("Adress: " + current.adress);
             System.out.println("SSN: " + current.SSN);
-            System.out.println("Number: " + current.number);
-            System.out.println("\n___________________\n\n");
+            System.out.println("\n\n\n___________________\n");
         }
 
 
