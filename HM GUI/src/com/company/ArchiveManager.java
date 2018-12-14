@@ -5,6 +5,35 @@ import java.util.ArrayList;
 
 public class ArchiveManager
 {
+    public static void update(String setProduct, double setPrice, int index)
+    {
+
+
+        Product one = new Product(setProduct,setPrice);
+
+        ArrayList<Product> archive=new ArrayList<>();
+        if(read()!=null)
+        {
+            archive = read();
+        }
+
+        archive.add(one);
+
+        try {
+            FileOutputStream fileOut =
+                    new FileOutputStream("/users/alex/desktop/DataStreamLab/employee.ser");
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(archive);
+
+
+            out.close();
+            fileOut.close();
+            System.out.printf("Serialized data is saved in /users/alex/desktop/DataStreamLab/employee.ser");
+        } catch (IOException i) {
+            i.printStackTrace();
+        }
+    }
+
     public static void write(String setProduct, double setPrice)
     {
 

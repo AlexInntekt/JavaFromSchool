@@ -14,8 +14,8 @@ public class Main
 //        calculator m = new calculator();
 //        m.setVisible(true);
 
-//        ArchiveManager.initiate();
-//        ArchiveManager.write("mere",3);
+        //ArchiveManager.initiate();
+        //ArchiveManager.write("kaki",4);
 
         shoper n = new shoper();
         n.setVisible(true);
