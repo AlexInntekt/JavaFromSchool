@@ -14,6 +14,9 @@ public class Main
 //        calculator m = new calculator();
 //        m.setVisible(true);
 
+//        ArchiveManager.initiate();
+        ArchiveManager.write("mere",3);
+
         shoper n = new shoper();
         n.setVisible(true);
 
@@ -67,7 +70,7 @@ class shoper extends Frame
 
 
         ArrayList<Product> list = new ArrayList<Product>();
-                          // list=ArchiveManager.read();
+                           list=ArchiveManager.read();
         for(int i=0; i<list.size();i++)
         {
             productChooser.add(list.get(i).product);
