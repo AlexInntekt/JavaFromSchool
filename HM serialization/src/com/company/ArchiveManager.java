@@ -8,6 +8,7 @@ public class ArchiveManager
     public static void write(String setName, String setSurname, int setSSN, int setAge, String setGender, String setCity, String setCountry, String setAdress)
     {
 
+
         Person one = new Person(setName,setSurname,setSSN,setAge,setGender,setCity,setCountry, setAdress);
 
         ArrayList<Person> archive=new ArrayList<>();
@@ -36,6 +37,7 @@ public class ArchiveManager
     public static ArrayList<Person> read()
     {
         ArrayList<Person> list=new ArrayList<>();
+
 
 
         try {
@@ -76,7 +78,7 @@ public class ArchiveManager
     }
 
 
-    public ArchiveManager()
+    public static void initiate()
     {
         //constructor:
         //(setName, setSurname, setSSN, setAge, setGender, setCity, setCountry)
@@ -110,6 +112,8 @@ public class ArchiveManager
 
     public static String getAsString()
     {
+
+
         ArrayList<Person> list = read();
         String output="";
 

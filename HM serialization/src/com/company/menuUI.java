@@ -85,7 +85,10 @@ public class menuUI extends Frame
             {
                 System.out.print("\n Serialize object 'person' \n");
 
-
+                if(ArchiveManager.read()==null)
+                {
+                    ArchiveManager.initiate();
+                }
 
                 ArchiveManager.write(Name.getText(),Surname.getText(),23,22,gender.getSelectedCheckbox().getLabel(),City.getText(),country.getSelectedItem().toString(),"1 mai");
 //                System.out.println("result");
@@ -106,7 +109,10 @@ public class menuUI extends Frame
             {
                 System.out.print("\n Displaying objects. Deserialize\n");
 
-
+                if(ArchiveManager.read()==null)
+                {
+                    ArchiveManager.initiate();
+                }
 
                   itsOutput.setText(ArchiveManager.getAsString());
 //                System.out.println("result");
