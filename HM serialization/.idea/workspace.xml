@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6681364-3d8a-4a46-9b6f-84220f035f47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/ArchiveManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/Product.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ArchiveManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2124">
-              <caret line="118" lean-forward="true" selection-end-line="130" />
+            <state relative-caret-position="378">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +205,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1355" height="849" extended-state="0" />
+    <frame x="196" y="857" width="1355" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24600153" />
@@ -272,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ArchiveManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2124">
-          <caret line="118" lean-forward="true" selection-end-line="130" />
+        <state relative-caret-position="378">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,6 +2,7 @@ package com.company;
 import java.awt.*;
 import java.io.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 
 public class Main
@@ -47,7 +48,7 @@ class shoper extends Frame
     TextField textFieldThree=new TextField(" ",20);
 
 
-
+    Choice productChooser = new Choice();
 
 
     public shoper()
@@ -63,14 +64,21 @@ class shoper extends Frame
         //setLayout(new GridLayout(12,12));
         setLayout(new GridLayout(6,24));
 
+
+
+        ArrayList<Product> list = new ArrayList<Product>();
+                          // list=ArchiveManager.read();
+        for(int i=0; i<list.size();i++)
+        {
+            productChooser.add(list.get(i).product);
+        }
+
         add(labelOne);
-        add(textFieldOne);
+        add(productChooser);
         add(labelTwo);
         add(textFieldTwo);
         add(output);
         add(textFieldThree);
-
-
 
         buy = new Button ("buy");
 

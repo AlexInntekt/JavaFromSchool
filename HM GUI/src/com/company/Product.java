@@ -12,6 +12,11 @@ public class Product implements java.io.Serializable
         this.product=setProduct;
     }
 
+    public Product()
+    {
+
+    }
+
 
 
 
