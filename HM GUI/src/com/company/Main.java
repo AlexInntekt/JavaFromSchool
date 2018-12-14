@@ -54,6 +54,7 @@ class shoper extends Frame implements ItemListener
     Choice productChooser = new Choice();
 
     ArrayList<Product> list = new ArrayList<Product>();
+    Product current = new Product();
 
 
     public shoper()
@@ -78,6 +79,37 @@ class shoper extends Frame implements ItemListener
             productChooser.add(list.get(i).product);
         }
         productChooser.addItemListener(this);
+
+
+        textFieldTwo.addFocusListener(new FocusListener() {
+            public void focusGained(FocusEvent e) {
+                //displayMessage("Focus gained", e);
+            }
+
+            public void focusLost(FocusEvent e)
+            {
+                double sum=0;
+                for(int i=0; i<list.size(); i++)
+                {
+                    if(list.get(i)==current)
+                    {
+                        sum = Double.valueOf( String.valueOf(textFieldTwo.getText())  ) * Double.valueOf(current.price);
+                    }
+                }
+                textFieldThree.setText(String.valueOf(sum));
+            }
+
+//            void displayMessage(String prefix, FocusEvent e) {
+//                System.out.println(prefix
+//                        + (e.isTemporary() ? " (temporary):" : ":")
+//                        + e.getComponent().getClass().getName()
+//                        + "; Opposite component: "
+//                        + (e.getOppositeComponent() != null ? e.getOppositeComponent().getClass().getName()
+//                        : "null"));
+//            }
+
+        });
+
 
         add(labelOne);
         add(productChooser);
@@ -120,14 +152,16 @@ class shoper extends Frame implements ItemListener
 
         for(int i=0;i<list.size();i++)
         {
-            if(list.get(i).product==str)
-            {
-                textFieldTwo.setText(list.get(i).product);
-            }
+            current = list.get(i);
         }
 
     }
+
+
+
 }
+
+
 
 
 
