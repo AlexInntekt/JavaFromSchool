@@ -7,16 +7,12 @@ public class ArchiveManager
 {
     public static void write(String setName, String setSurname, int setSSN, int setAge, String setGender, String setCity, String setCountry, String setAdress)
     {
-        //constructor:
-        //(setName, setSurname, setSSN, setAge, setGender, setCity, setCountry)
-        Person one = new Person(setName,setSurname,setSSN,setAge,setGender,setCity,setCountry, setAdress);
 
+        Person one = new Person(setName,setSurname,setSSN,setAge,setGender,setCity,setCountry, setAdress);
 
         ArrayList<Person> archive=new ArrayList<>();
                           archive = read();
-
         archive.add(one);
-
 
         try {
             FileOutputStream fileOut =

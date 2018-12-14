@@ -7,13 +7,13 @@ import java.awt.event.ActionListener;
 public class menuUI extends Frame
 {
     Label labelOne = new Label("Name ");
-    TextField textFieldOne=new TextField("Ionel",20);
+    TextField Name=new TextField("Ionel",20);
 
     Label labelTwo = new Label("Surname ");
-    TextField textFieldTwo=new TextField("Petrescu",20);
+    TextField Surname=new TextField("Petrescu",20);
 
     Label output = new Label("City ");
-    TextField textFieldThree=new TextField("Bucharest",20);
+    TextField City=new TextField("Bucharest",20);
 
     private Button insert;
     private Button show;
@@ -25,21 +25,29 @@ public class menuUI extends Frame
     {
         super("Insert a person in the DB");
 
-        setSize(400,750);
-        //setLayout(new GridLayout(12,12));
-        setLayout(new GridLayout(12,12));
+        setSize(600,750);
+        setLayout(new GridLayout(6,2));
+//        p.setLayout(new GridLayout(12,12));
+//        p2.setLayout(new GridLayout(12,12));
+
+
 
         add(labelOne);
-        add(textFieldOne);
+        add(Name);
         add(labelTwo);
-        add(textFieldTwo);
+        add(Surname);
         add(output);
-        add(textFieldThree);
+        add(City);
+
+
 
         insert = new Button ("Insert a new person");
         show = new Button("Show DB");
         add(insert);
         add(show);
+
+//        add(p);
+//        add(p2);
 
         insert.addActionListener(new ActionListener()
         {
@@ -48,7 +56,9 @@ public class menuUI extends Frame
             {
                 System.out.print("\n Serialize object 'person' \n");
 
-                ArchiveManager.write("alex","manolescu",23,22,"M","Furth","Romania","1 mai");
+
+
+                ArchiveManager.write(Name.getText(),Surname.getText(),23,22,"M",City.getText(),"Romania","1 mai");
 //                System.out.println("result");
 //
 //
