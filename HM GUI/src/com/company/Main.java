@@ -85,6 +85,15 @@ class shoper extends Frame implements ItemListener
         productChooser.addItemListener(this);
 
 
+        System.out.print("\n\n______________________\n");
+        System.out.print("Serialized data at the moment:\n");
+        //Serialized data at the moment:
+        for(int i=0;i<list.size();i++)
+        {
+            Product c = list.get(i);
+            System.out.print(c.product + "  Price: " + c.price+". Updated quantity: "+c.quantity+"\n");
+        }
+
         textFieldTwo.addFocusListener(new FocusListener() {
             public void focusGained(FocusEvent e) {
                 //displayMessage("Focus gained", e);

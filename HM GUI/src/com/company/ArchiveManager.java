@@ -114,7 +114,7 @@ public class ArchiveManager
     {
         //constructor:
         //(setName, setSurname, setSSN, setAge, setGender, setCity, setCountry)
-        Product one = new Product("banane",23);
+        Product one = new Product("pepeni",2.5);
 
 
         ArrayList<Product> archive=new ArrayList<>();
