@@ -15,6 +15,9 @@ public class menuUI extends Frame
     Label output = new Label("City ");
     TextField City=new TextField("Bucharest",20);
 
+    TextArea itsOutput = new TextArea("-//-");
+
+
     private Button insert;
     private Button show;
 
@@ -41,10 +44,13 @@ public class menuUI extends Frame
 
 
 
+
         insert = new Button ("Insert a new person");
         show = new Button("Show DB");
         add(insert);
         add(show);
+
+        add(itsOutput);
 
 //        add(p);
 //        add(p2);
@@ -77,7 +83,9 @@ public class menuUI extends Frame
             {
                 System.out.print("\n Displaying objects. Deserialize\n");
 
-                  ArchiveManager.read();
+
+
+                  itsOutput.setText(ArchiveManager.getAsString());
 //                System.out.println("result");
 //
 //

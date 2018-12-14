@@ -102,4 +102,21 @@ public class ArchiveManager
             i.printStackTrace();
         }
     }
+
+
+    public static String getAsString()
+    {
+        ArrayList<Person> list = read();
+        String output="";
+
+        for(int i=0; i<list.size(); i++)
+        {
+            Person c = list.get(i);
+            String str = i +") "+c.name + " " + c.surname + ". Age: " + c.age + " years old \n";
+            output=output+str;
+        }
+
+        return output;
+
+    }
 }
