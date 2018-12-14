@@ -94,6 +94,8 @@ class shoper extends Frame implements ItemListener
                     if(list.get(i)==current)
                     {
                         sum = Double.valueOf( String.valueOf(textFieldTwo.getText())  ) * Double.valueOf(current.price);
+
+                        System.out.print("Price: " + current.price);
                     }
                 }
                 textFieldThree.setText(String.valueOf(sum));
