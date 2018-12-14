@@ -11,7 +11,11 @@ public class ArchiveManager
         Person one = new Person(setName,setSurname,setSSN,setAge,setGender,setCity,setCountry, setAdress);
 
         ArrayList<Person> archive=new ArrayList<>();
-                          archive = read();
+                          if(read()!=null)
+                          {
+                              archive = read();
+                          }
+
         archive.add(one);
 
         try {
@@ -112,7 +116,7 @@ public class ArchiveManager
         for(int i=0; i<list.size(); i++)
         {
             Person c = list.get(i);
-            String str = i +") "+c.name + " " + c.surname + ". Age: " + c.age + " years old \n";
+            String str = i +") "+c.name + " " + c.surname + ". Age: " + c.age + " years old. Gender: "+ c.gender + "\n";
             output=output+str;
         }
 

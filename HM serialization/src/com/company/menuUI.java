@@ -12,6 +12,8 @@ public class menuUI extends Frame
     Label labelTwo = new Label("Surname ");
     TextField Surname=new TextField("Petrescu",20);
 
+    CheckboxGroup gender = new CheckboxGroup();
+
     Label output = new Label("City ");
     TextField City=new TextField("Bucharest",20);
 
@@ -35,6 +37,10 @@ public class menuUI extends Frame
 
 
 
+
+
+
+
         add(labelOne);
         add(Name);
         add(labelTwo);
@@ -42,6 +48,8 @@ public class menuUI extends Frame
         add(output);
         add(City);
 
+        add(new Checkbox("Male", gender, true));
+        add(new Checkbox("Female", gender, false));
 
 
 
@@ -64,7 +72,7 @@ public class menuUI extends Frame
 
 
 
-                ArchiveManager.write(Name.getText(),Surname.getText(),23,22,"M",City.getText(),"Romania","1 mai");
+                ArchiveManager.write(Name.getText(),Surname.getText(),23,22,gender.getSelectedCheckbox().getLabel(),City.getText(),"Romania","1 mai");
 //                System.out.println("result");
 //
 //
