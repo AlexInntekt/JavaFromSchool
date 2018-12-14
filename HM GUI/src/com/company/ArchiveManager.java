@@ -5,11 +5,11 @@ import java.util.ArrayList;
 
 public class ArchiveManager
 {
-    public static void update(String setProduct, double setPrice, int index)
+    public static void update(String setProduct, double setPrice, int quantity)
     {
 
 
-        Product one = new Product(setProduct,setPrice);
+        Product updated = new Product(setProduct,setPrice,quantity);
 
         ArrayList<Product> archive=new ArrayList<>();
         if(read()!=null)
@@ -17,7 +17,14 @@ public class ArchiveManager
             archive = read();
         }
 
-        archive.add(one);
+        for(int i=0;i<archive.size();i++)
+        {
+            if(archive.get(i).product==setProduct)
+            {
+                archive.remove(i);
+            }
+        }
+        archive.add(updated);
 
         try {
             FileOutputStream fileOut =

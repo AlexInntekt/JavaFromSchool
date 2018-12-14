@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6681364-3d8a-4a46-9b6f-84220f035f47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/ArchiveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/ArchiveManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/Product.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />

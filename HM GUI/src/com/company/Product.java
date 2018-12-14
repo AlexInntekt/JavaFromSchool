@@ -7,6 +7,13 @@ public class Product implements java.io.Serializable
     public double price;
     public int quantity;
 
+    public Product(String setProduct, double setPrice, int quant)
+    {
+        this.price=setPrice;
+        this.product=setProduct;
+        this.quantity=quant;
+    }
+
 
     public Product(String setProduct, double setPrice)
     {
