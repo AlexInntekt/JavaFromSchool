@@ -1,6 +1,9 @@
 package com.company;
+import java.awt.*;
 import java.io.*;
 import java.util.ArrayList;
+import java.awt.event.*;
+
 
 public class Main
 {
@@ -8,26 +11,33 @@ public class Main
     public static void main(String[] args)
     {
 
+
         run();
     }
 
     public static void test(ArrayList<Person> current)
     {
-        current.remove(0);
-        current.remove(0);
+//        current.remove(0);
+//        current.remove(0);
 
     }
 
 
+
+
+
     public static void run()
     {
+        //run UI:
+        menuUI window = new menuUI();
+        window.setVisible(true);
+
+
         //constructor:
         //(setName, setSurname, setSSN, setAge, setGender, setCity, setCountry)
         Person one = new Person("Keli","Malinghton",124,22,"F","Thompson","UK", "Ave Etilka 23");
         Person two = new Person("Richard","Mollen",331,31,"M","Thompson","USA", "str Roses, 91");
         Person three = new Person("Vasile","Dumitrescu",273,29,"M","Thompson","Romania", "str Lorry, 23 bis");
-
-
 
 
         ArrayList<Person> archive=new ArrayList<>();
