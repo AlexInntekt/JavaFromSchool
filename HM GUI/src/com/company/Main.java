@@ -10,8 +10,8 @@ public class Main
     public static void main(String[] args)
     {
 
-        calculator m = new calculator();
-        m.setVisible(true);
+//        calculator m = new calculator();
+//        m.setVisible(true);
 
         shoper n = new shoper();
         n.setVisible(true);
