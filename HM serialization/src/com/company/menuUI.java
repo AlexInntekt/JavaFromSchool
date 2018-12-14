@@ -17,7 +17,12 @@ public class menuUI extends Frame
     Label output = new Label("City ");
     TextField City=new TextField("Bucharest",20);
 
+    Label countryLabel = new Label("Country ");
+
+
     TextArea itsOutput = new TextArea("-//-");
+
+    List country;
 
 
     private Button insert;
@@ -31,11 +36,19 @@ public class menuUI extends Frame
         super("Insert a person in the DB");
 
         setSize(600,750);
-        setLayout(new GridLayout(6,2));
+        setLayout(new GridLayout(12,2));
 //        p.setLayout(new GridLayout(12,12));
 //        p2.setLayout(new GridLayout(12,12));
 
 
+
+        country=new List(1, false);
+        country.add("Romania");
+        country.add("USA");
+        country.add("Germany");
+        country.add("Italy");
+        country.add("France");
+        country.add("Norway");
 
 
 
@@ -45,6 +58,8 @@ public class menuUI extends Frame
         add(Name);
         add(labelTwo);
         add(Surname);
+        add(countryLabel);
+        add(country);
         add(output);
         add(City);
 
@@ -72,7 +87,7 @@ public class menuUI extends Frame
 
 
 
-                ArchiveManager.write(Name.getText(),Surname.getText(),23,22,gender.getSelectedCheckbox().getLabel(),City.getText(),"Romania","1 mai");
+                ArchiveManager.write(Name.getText(),Surname.getText(),23,22,gender.getSelectedCheckbox().getLabel(),City.getText(),country.getSelectedItem().toString(),"1 mai");
 //                System.out.println("result");
 //
 //

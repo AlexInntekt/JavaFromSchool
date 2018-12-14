@@ -116,7 +116,7 @@ public class ArchiveManager
         for(int i=0; i<list.size(); i++)
         {
             Person c = list.get(i);
-            String str = i +") "+c.name + " " + c.surname + ". Age: " + c.age + " years old. Gender: "+ c.gender + "\n";
+            String str = i +") "+c.name + " " + c.surname + ". Age: " + c.age + " years old. Gender: "+ c.gender + ". Country: " + c.country + "\n";
             output=output+str;
         }
 
