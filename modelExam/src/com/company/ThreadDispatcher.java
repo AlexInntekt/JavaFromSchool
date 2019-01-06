@@ -22,6 +22,18 @@ public class ThreadDispatcher extends Thread
                 System.out.println("New detected: "+this.employees.get(storedCapacity).name);
                 this.storedCapacity++;
             }
+            else
+            {
+                System.out.println("ThreadDispatcher ");
+            }
+
+            try {
+                Thread.sleep(5000);                 //1000 milliseconds is one second.
+            } catch(InterruptedException ex) {
+                Thread.currentThread().interrupt();
+            }
+
+
         }
 
 

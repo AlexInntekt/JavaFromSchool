@@ -21,8 +21,12 @@ public class Window extends Frame
 
     public Button add = new Button("Submit");
 
-    public Window()
+    public Company c = new Company();
+
+    public Window(Company setc)
     {
+        this.c = setc;
+
         setSize(500,300);
 
         //setLayout(new GridLayout(12,12));
@@ -61,6 +65,7 @@ public class Window extends Frame
                 {
                     Engineer newEng = new Engineer(Integer.valueOf(projectIdField.getText()),employeeNameField.getText());
                     System.out.println(newEng);
+                    c.addEmployee(newEng);
                 }
 
 

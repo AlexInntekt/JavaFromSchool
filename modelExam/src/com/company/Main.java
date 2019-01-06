@@ -15,8 +15,7 @@ public class Main {
 
     public static void run()
     {
-        Window wind = new Window();
-        wind.setVisible(true);
+
 
         Engineer Joe = new Engineer(12,"Joe");
         Engineer Steve = new Engineer(4,"Steve");
@@ -34,6 +33,9 @@ public class Main {
 
         AKP.addEmployee(El);
         AKP.addEmployee(Ion);
+
+        Window wind = new Window(AKP);
+        wind.setVisible(true);
 
     }
 }

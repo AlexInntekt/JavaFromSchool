@@ -7,6 +7,11 @@ public class Company
     public String name;
     public ArrayList employees = new ArrayList();
 
+    public Company()
+    {
+
+    }
+
     public Company(String setName)
     {
         this.name = setName;
