@@ -9,6 +9,11 @@ public abstract class Employee
 
     public String name;
     public abstract double getSalary();
+
+    @Override public String toString()
+    {
+        return("Name of employee: " + this.name);
+    }
 }
 
 
