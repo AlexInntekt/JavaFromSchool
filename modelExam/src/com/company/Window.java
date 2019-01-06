@@ -28,6 +28,7 @@ public class Window extends Frame
         //setLayout(new GridLayout(12,12));
         setLayout(new GridLayout(1,2));
 
+        panelBeta.setLayout(new GridLayout(5,2,5,5));
 
 
         panelAlpha.add(textArea);

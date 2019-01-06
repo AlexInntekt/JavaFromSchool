@@ -19,7 +19,7 @@ public class ThreadDispatcher extends Thread
         {
             if(this.storedCapacity != this.employees.size())
             {
-                System.out.println(this.employees.get(storedCapacity).name);
+                System.out.println("New detected: "+this.employees.get(storedCapacity).name);
                 this.storedCapacity++;
             }
         }
