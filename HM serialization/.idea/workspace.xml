@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6681364-3d8a-4a46-9b6f-84220f035f47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/ArchiveManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/ArchiveManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/shoper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/shoper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/shoper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/shoper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/shoper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/out/production/HM GUI/com/company/shoper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/ArchiveManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/ArchiveManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM GUI/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HM GUI/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Threads Lab 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads Lab 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project from vali/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project from vali/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +20,13 @@
     <session id="1993452369">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="162">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ArchiveManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="360">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/menuUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="306">
+              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +127,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
+    <option name="x" value="5" />
     <option name="y" value="43" />
     <option name="width" value="1355" />
     <option name="height" value="849" />
@@ -142,8 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,10 +212,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="43" width="1355" height="849" extended-state="0" />
-    <editor active="true" />
+    <frame x="5" y="43" width="1355" height="849" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25361767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25742576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -252,7 +249,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Employee.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="162">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -262,7 +259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ArchiveManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="360">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -279,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/menuUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="306">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

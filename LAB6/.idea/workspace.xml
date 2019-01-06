@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809a36fd-7a5c-47ff-8773-5920310458dd" name="Default Changelist" comment="" />
+    <list default="true" id="809a36fd-7a5c-47ff-8773-5920310458dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Threads Lab 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Threads Lab 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project from vali/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project from vali/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +22,12 @@
     <session id="-1668039802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -53,7 +60,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-837">
+            <state relative-caret-position="-290">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,7 +90,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
+    <option name="x" value="86" />
     <option name="y" value="28" />
     <option name="width" value="1274" />
     <option name="height" value="849" />
@@ -96,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +145,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,10 +193,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="28" width="1274" height="849" extended-state="0" />
+    <frame x="86" y="28" width="1274" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25811687" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26217532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -228,7 +235,7 @@
     <entry file="file://$PROJECT_DIR$/out/production/LAB6/com/company/Frame1.class" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-837">
+        <state relative-caret-position="-290">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />

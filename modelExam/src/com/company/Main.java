@@ -5,6 +5,13 @@ public class Main {
     public static void main(String[] args)
     {
         run();
+        UI();
+    }
+
+    public static void UI()
+    {
+        Window wind = new Window();
+               wind.setVisible(true);
     }
 
     public static void run()
@@ -15,14 +22,15 @@ public class Main {
         Manager Ion = new Manager(4,"Ion");
 
         Company AKP = new Company("AKP");
-                AKP.addEmployee(Joe);
-                AKP.addEmployee(Steve);
-                AKP.addEmployee(El);
-                AKP.addEmployee(Ion);
+
+
+        AKP.addEmployee(Joe);
+        AKP.addEmployee(Steve);
 
         ThreadDispatcher dispatcher = new ThreadDispatcher(AKP);
-               dispatcher.start();
+                         dispatcher.start();
 
+        AKP.addEmployee(El);
         AKP.addEmployee(Ion);
 
     }

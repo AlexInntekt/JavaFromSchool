@@ -14,12 +14,12 @@ public class Main
 //        calculator m = new calculator();
 //        m.setVisible(true);
 
-//        ArchiveManager.initiate();
-//        ArchiveManager.write("kaki",4);
-//        ArchiveManager.write("lamai",3);
-//        ArchiveManager.write("portocale",4.3);
-//        ArchiveManager.write("banane",3);
-//        ArchiveManager.write("mere",2);
+        ArchiveManager.initiate();
+        ArchiveManager.write("kaki",4);
+        ArchiveManager.write("lamai",3);
+        ArchiveManager.write("portocale",4.3);
+        ArchiveManager.write("banane",3);
+        ArchiveManager.write("mere",2);
 
         shoper n = new shoper();
         n.setVisible(true);
