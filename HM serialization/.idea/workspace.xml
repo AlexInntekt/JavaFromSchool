@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6681364-3d8a-4a46-9b6f-84220f035f47" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
