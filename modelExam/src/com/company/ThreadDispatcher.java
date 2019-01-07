@@ -31,7 +31,7 @@ public class ThreadDispatcher extends Thread
                     BufferedWriter bw = new BufferedWriter(fw);
                     PrintWriter out = new PrintWriter(bw))
                 {
-                    out.println(current.name + " " + current.getClass().getSimpleName() );
+                    out.println(current.name + " " + current.getClass().getSimpleName());
                     //more code
                 } catch (IOException e) {
                     //exception handling left as an exercise for the reader
