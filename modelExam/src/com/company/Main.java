@@ -28,7 +28,7 @@ public class Main {
         AKP.addEmployee(Joe);
         AKP.addEmployee(Steve);
 
-        ThreadDispatcher dispatcher = new ThreadDispatcher(AKP);
+        EmployeeMonitor dispatcher = new EmployeeMonitor(AKP);
                          dispatcher.start();
 
         AKP.addEmployee(El);
