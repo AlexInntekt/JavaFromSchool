@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.io.*;
 
 public class ThreadDispatcher extends Thread
 {
@@ -15,16 +16,31 @@ public class ThreadDispatcher extends Thread
 
     @Override public void run()
     {
+        int k = 0;
         while(true)
         {
             if(this.storedCapacity != this.employees.size())
             {
-                System.out.println("New detected: "+this.employees.get(storedCapacity).name);
+                Employee current = this.employees.get(storedCapacity);
+                System.out.println("New detected: "+current.name);
                 this.storedCapacity++;
+
+                k=0;
+
+                try(FileWriter fw = new FileWriter("/Users/alex/desktop/myfile.txt", true);
+                    BufferedWriter bw = new BufferedWriter(fw);
+                    PrintWriter out = new PrintWriter(bw))
+                {
+                    out.println(current.name + " " + current.getClass().getSimpleName() );
+                    //more code
+                } catch (IOException e) {
+                    //exception handling left as an exercise for the reader
+                }
             }
             else
             {
-                System.out.println("ThreadDispatcher ");
+                k+=5;
+                System.out.println("ThreadDispatcher. " + k + " seconds elapsed since last detection.");
             }
 
             try {
