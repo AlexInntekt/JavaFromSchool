@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="863bcf96-b0dd-4976-b811-bea259e2146c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../prepareForExam/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/Computation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/EmployeeMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/EmployeeMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/src/com/company/division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/division.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -10,7 +10,15 @@ public class Main
 //        System.out.print(mypro);
         division mydiv = new division();
 
-        System.out.println(mydiv.result(3,0));
+        try
+        {
+            System.out.println(mydiv.result(3,0));
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+
 
 
 

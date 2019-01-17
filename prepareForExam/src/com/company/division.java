@@ -6,19 +6,14 @@ import java.io.InputStream;
 
 public class division implements Computation
 {
-    public double result(double a, double b)
+    public double result(double a, double b) throws Exception
     {
-        double result=0;
-        try
-        {
-            result = a/b;
-        }
-        catch(IOException e)
-        {
-//            System.out.println(e);
-        }
 
-
+        if(b==0)
+        {
+            throw new Exception("You can not divide with 0");
+        }
+        double result=a/b;
 
         return result;
     }
