@@ -35,6 +35,7 @@ public class EmployeeMonitor extends Thread
                     //more code
                 } catch (IOException e) {
                     //exception handling left as an exercise for the reader
+                    System.out.println(e);
                 }
             }
             else
