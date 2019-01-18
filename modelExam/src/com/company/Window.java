@@ -55,6 +55,27 @@ public class Window extends Frame
         add(panelAlpha);
         add(panelBeta);
 
+
+        MenuBar mb=new MenuBar();
+        Menu m=new Menu("File");
+                MenuItem mi1=new MenuItem("New Project");
+                m.add(mi1);
+        MenuItem mi2=new MenuItem("Open Project");
+                m.add(mi2);
+        Menu m1=new Menu("Import project");
+                MenuItem mi3=new MenuItem("Import as ZIP");
+                m1.add(mi3);
+        MenuItem mi4=new MenuItem("Import as Eclipse project");
+                m1.add(mi4);
+        m.add(m1);
+        m.addSeparator();
+        MenuItem exit=new MenuItem("Exit");
+                m.add(exit);
+        mb.add(m);
+        setMenuBar(mb);
+
+
+
         add.addActionListener(new ActionListener()
         {
 
@@ -74,6 +95,7 @@ public class Window extends Frame
             }
         });
     }
+
 
 
 

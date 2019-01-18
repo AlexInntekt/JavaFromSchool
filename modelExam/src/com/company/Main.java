@@ -37,5 +37,8 @@ public class Main {
         Window wind = new Window(AKP);
         wind.setVisible(true);
 
+
+
+
     }
 }

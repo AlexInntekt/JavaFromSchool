@@ -43,6 +43,8 @@ public class Main
         }
 
 
+        myW w = new myW();
+        w.setVisible(true);
 
 
 	// write your code here

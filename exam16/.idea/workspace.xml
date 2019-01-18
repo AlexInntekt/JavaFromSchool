@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72ff674-d111-48ac-b9dd-4ce65dd8444a" name="Default Changelist" comment="" />
+    <list default="true" id="d72ff674-d111-48ac-b9dd-4ce65dd8444a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/myW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/out/production/prepareForExam/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/out/production/prepareForExam/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project from vali/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project from vali/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +25,10 @@
     <session id="-1569598119">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -46,37 +59,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="724">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#108#109#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/user.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1561">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#211#227#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#1335#1359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/user.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/BankingAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="19" selection-end-line="130" />
+            <state relative-caret-position="216">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -115,6 +120,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,17 +201,13 @@
     <frame x="25" y="59" width="1336" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2156105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2187017" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32793522" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4197031" />
@@ -214,14 +215,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32793522" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -235,35 +240,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BankingAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="51" column="14" lean-forward="true" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="724">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#108#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/user.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1561">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#211#227#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#1335#1359#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BankingAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" selection-end-line="130" />
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>

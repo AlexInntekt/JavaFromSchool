@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="261c7f92-d6cc-4717-9f89-acc51a5a009d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab threads/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab threads/src/com/company/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab threads/src/com/company/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab threads/src/com/company/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab threads/src/com/company/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/myW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM serialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM serialization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exam16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exam16/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/ThreadDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/ThreadDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/out/production/modelExam/com/company/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modelExam/src/com/company/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modelExam/src/com/company/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/out/production/prepareForExam/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/out/production/prepareForExam/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prepareForExam/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prepareForExam/src/com/company/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +25,11 @@
     <session id="1069866180">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,11 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="343">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Dispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="350">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/EventQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="292">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/SensorEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="270">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -170,8 +172,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,9 +223,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="37" width="1274" height="849" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28246754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28652596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -255,6 +256,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/SensorEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -265,37 +283,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/SensorEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Dispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/EventQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="292">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
